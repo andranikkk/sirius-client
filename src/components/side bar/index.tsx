@@ -6,36 +6,36 @@ const Sidebar: React.FC = () => {
   return (
     <nav className="min-w-[250px]">
       <div className="flex flex-row m-4 items-center">
-        <Image src="/logomark.svg" className="mr-3" />
+        <Image src="/assets/logomark.svg" className="mr-3" />
         <h3 className="flex w-[20px] text-[30px]">Sirius Future</h3>
       </div>
       <ul>
         <li>
-          <NavButton href="/user/:username" icon="/home.svg">
+          <NavButton href="/user/:username" icon="/assets/home.svg">
             Главная
           </NavButton>
-          <NavButton href="/" icon="/calendar.svg">
+          <NavButton href="/" icon="/assets/calendar.svg">
             Расписание
           </NavButton>
-          <NavButton href="#" icon="/wallet.svg">
+          <NavButton href="#" icon="/assets/wallet.svg">
             Оплата
           </NavButton>
-          <NavButton href="#" icon="/acchivements.svg">
+          <NavButton href="#" icon="/assets/acchivements.svg">
             Достижения
           </NavButton>
-          <NavButton href="#" icon="/challanges.svg">
+          <NavButton href="#" icon="/assets/challanges.svg">
             Тренажеры
           </NavButton>
-          <NavButton href="#" icon="/library.svg">
+          <NavButton href="#" icon="/assets/library.svg">
             Библиотека
           </NavButton>
-          <NavButton href="#" icon="/support.svg">
+          <NavButton href="#" icon="/assets/support.svg">
             Проверка связи
           </NavButton>
-          <NavButton href="#" icon="/settings.svg">
+          <NavButton href="#" icon="/assets/settings.svg">
             Настройки
           </NavButton>
-          <NavButton href="#" icon="/faq.svg">
+          <NavButton href="#" icon="/assets/faq.svg">
             Вопросы
           </NavButton>
         </li>
@@ -53,7 +53,7 @@ const Sidebar: React.FC = () => {
             <Button className="bg-blue-100 text-blue-700 py-2 rounded-3xl">
               Узнать
             </Button>
-            <Image src="/present.svg" alt="Gift illustration" />
+            <Image src="/assets/present.svg" alt="Gift illustration" />
           </div>
         </div>
       </div>

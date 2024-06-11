@@ -32,7 +32,7 @@ const Popup = () => {
           description=""
           className="transition-transform"
           avatarProps={{
-            src: "/avatar.svg",
+            src: "/assets/avatar.svg",
           }}
         />
       </PopoverTrigger>
@@ -46,7 +46,7 @@ const Popup = () => {
                 description=""
                 className="transition-transform"
                 avatarProps={{
-                  src: "/avatar.svg",
+                  src: "/assets/avatar.svg",
                 }}
               />
               <div className="ml-2">
@@ -62,7 +62,7 @@ const Popup = () => {
                 description=""
                 className="transition-transform"
                 avatarProps={{
-                  src: "/anna.svg",
+                  src: "/assets/anna.svg",
                 }}
               />
               <div className="ml-2">
