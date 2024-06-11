@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form"
 import { Button, Checkbox, Link } from "@nextui-org/react"
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
+import type { UserData } from "../app/services/userApi"
 import { useLazyCurrentQuery, useLoginMutation } from "../app/services/userApi"
 import CustomInput from "../components/input"
 import ErrorMessage from "../components/errorMessage"
@@ -11,17 +12,12 @@ type Props = {
   setSelected: (value: string) => void
 }
 
-type LoginType = {
-  email: string
-  password: string
-}
-
 const Login: React.FC<Props> = ({ setSelected }) => {
   const {
     handleSubmit,
     control,
     formState: { errors },
-  } = useForm<LoginType>({
+  } = useForm<UserData>({
     mode: "onChange",
     reValidateMode: "onBlur",
     defaultValues: {
@@ -36,7 +32,7 @@ const Login: React.FC<Props> = ({ setSelected }) => {
   const [triggerCurrentQuery] = useLazyCurrentQuery()
   const [isSelected, setIsSelected] = useState(false)
 
-  const onSubmit = async (data: LoginType) => {
+  const onSubmit = async (data: UserData) => {
     try {
       await login(data).unwrap()
       await triggerCurrentQuery().unwrap()
