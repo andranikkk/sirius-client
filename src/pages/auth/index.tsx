@@ -11,7 +11,7 @@ const Auth = () => {
       <div className="flex flex-col">
         <Card className="max-w-full w-[340px] min-h-[500px] items-center">
           <div className="text-3xl flex justify-center items-center flex-col m-4">
-            <Image src="/assets/logomark.svg" />
+            <Image src="/logomark.svg" />
             <p className="mt-5">Вход в Sirius Future</p>
           </div>
           <CardBody className="overflow-hidden">

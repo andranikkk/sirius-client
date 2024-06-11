@@ -26,7 +26,7 @@ const AppHeader = () => {
       </NavbarBrand>
       <NavbarContent justify="end">
         <Button disableAnimation className="bg-transparent">
-          <Image src="/assets/chat.svg" />
+          <Image src="/chat.svg" />
         </Button>
       </NavbarContent>
       <Popup />

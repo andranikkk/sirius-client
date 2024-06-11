@@ -13,7 +13,7 @@ const OfferCard: React.FC = () => {
           новогодней скидкой 20% на любой курс!
         </p>
       </div>
-      <Image src="/assets/huskey.svg" alt="Huskey" className="w-full h-full" />
+      <Image src="/huskey.svg" alt="Huskey" className="w-full h-full" />
     </div>
   )
 }

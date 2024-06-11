@@ -8,7 +8,7 @@ const HotLinks: React.FC = () => {
         <span>Домашние задания</span>
         <div className="flex justify-end">
           <Image
-            src="/assets/homework.svg"
+            src="/homework.svg"
             alt="Homework"
             className="justify-end mt-3"
           />
@@ -18,7 +18,7 @@ const HotLinks: React.FC = () => {
         <span>Отчеты от учителей</span>
         <div className="flex justify-end">
           <Image
-            src="/assets/reports.svg"
+            src="/reports.svg"
             alt="Reports"
             className="justify-end mt-3"
           />
