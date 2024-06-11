@@ -9,7 +9,7 @@ const ProfilePage = () => {
   return (
     <Layout>
       <div className="flex flex-col space-y-6">
-        <div className="flex items-center gap-4 h-[280px]">
+        <div className="flex items-center gap-4 h-[280px] w-full">
           <OfferCard />
           <NextLesson />
           <HotLinks />

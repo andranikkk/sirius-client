@@ -4,7 +4,7 @@ import NavButton from "../nav-button"
 const Sidebar: React.FC = () => {
 
   return (
-    <nav className="min-w-[250px]">
+    <nav className="min-w-[245px]">
       <div className="flex flex-row m-4 items-center">
         <Image src="/assets/logomark.svg" className="mr-3" />
         <h3 className="flex w-[20px] text-[30px]">Sirius Future</h3>

@@ -3,7 +3,7 @@ import type React from "react"
 
 const NextLesson: React.FC = () => {
   return (
-    <div className="p-6 h-full bg-yellow-100 rounded-3xl min-w-[360px] shadow-md text-center">
+    <div className="p-6 h-full bg-yellow-100 rounded-3xl min-w-[360px] w-full shadow-md text-center">
       <p className="text-2xl">Следующее занятие начнется через:</p>
       <div className="text-[40px] my-4">
         6<span className="text-[15px] ml-1 mr-3">д</span>

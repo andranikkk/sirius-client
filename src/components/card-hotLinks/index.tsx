@@ -3,7 +3,7 @@ import { Image } from "@nextui-org/react"
 
 const HotLinks: React.FC = () => {
   return (
-    <div className="space-y-4 flex flex-col h-full justify-between text-md w-[170px]">
+    <div className="space-y-4 flex flex-col h-full justify-between text-md min-w-[170px]">
       <div className="p-4 bg-blue-200 rounded-3xl shadow-md flex flex-col cursor-pointer">
         <span>Домашние задания</span>
         <div className="flex justify-end">

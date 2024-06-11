@@ -1,17 +1,9 @@
-import type React from "react"
-import "react-datepicker/dist/react-datepicker.css"
-import { useState } from "react"
-import DatePicker from "react-datepicker"
+import React from "react"
 
-const Calendar: React.FC = () => {
-  const [startDate, setStartDate] = useState(new Date())
+const CalendarComp = () => {
   return (
-    <DatePicker
-      selected={startDate}
-      onChange={(date: Date) => setStartDate(date)}
-      inline
-    />
+    <></>
   )
 }
 
-export default Calendar
+export default CalendarComp

@@ -3,23 +3,25 @@ import { Button } from "@nextui-org/react"
 
 const Balance: React.FC = () => {
   return (
-    <div className="p-6 bg-white rounded-3xl shadow-md min-w-[400px]">
+    <div className="p-6 bg-white border-violet-900 border-1 rounded-3xl shadow-md min-w-[450px]">
       <h3 className="text-xl font-semibold text-gray-900">Баланс занятий</h3>
       <ul className="mt-4 space-y-2">
-        <li className="flex justify-between items-center">
+        <li className="flex justify-between items-center text-lg m-1">
           <span>Ментальная Арифметика</span>
-          <span className="font-bold">32</span>
+          <button className="rounded-[50%] w-11 h-11 bg-violet-200">32</button>
         </li>
-        <li className="flex justify-between items-center">
+        <hr />
+        <li className="flex justify-between items-center text-lg m-1">
           <span>Программирование</span>
-          <span className="font-bold">0</span>
+          <button className="rounded-[50%] w-11 h-11 bg-violet-200">0</button>
         </li>
-        <li className="flex justify-between items-center">
+        <hr />
+        <li className="flex justify-between items-center text-lg m-1">
           <span>Скорочтение</span>
-          <span className="font-bold">4</span>
+          <button className="rounded-[50%] w-11 h-11 bg-violet-200">4</button>
         </li>
       </ul>
-      <Button className="mt-4 bg-violet-200 text-violet-700">Button</Button>
+      <Button className="mt-4 rounded-full w-full bg-violet-200 text-violet-900">Button</Button>
     </div>
   )
 }
